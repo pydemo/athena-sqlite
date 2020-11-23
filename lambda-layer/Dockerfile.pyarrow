@@ -1,7 +1,7 @@
 FROM lambci/lambda:build-python3.7
 
 ENV PYTHON_VERSION=3.7.5
-ENV APACHE_ARROW_VERSION=0.15.1
+ENV APACHE_ARROW_VERSION=1.0.1
 
 # Clone desired Arrow version
 RUN git clone \
